@@ -14,7 +14,11 @@ const Feeds = () => {
       <div className="flex items-center px-[1rem] py-1 overflow-x-auto no-scrollbar">
         {/* <CircularFeed /> */}
         {categoryData.map((profile, id) => {
-          return <CircularFeed data={profile} key={id} />;
+          return (
+            <div key={id}>
+              <CircularFeed data={profile} id={id} />
+            </div>
+          );
         })}
       </div>
     </div>

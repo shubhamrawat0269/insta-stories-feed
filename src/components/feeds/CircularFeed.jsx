@@ -1,17 +1,17 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const CircularFeed = ({ data, key }) => {
+const CircularFeed = ({ data, id }) => {
   const navigate = useNavigate();
 
   const redirectToStory = (user) => {
-    navigate(`/story/:${user}`);
+    navigate(`/story/${user}`);
   };
 
   return (
     <div
       className="px-1"
-      key={key}
+      key={id}
       onClick={() => redirectToStory(data.username)}
     >
       <div className="circular-gradient-brder">

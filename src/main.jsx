@@ -1,9 +1,8 @@
+import "./index.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import App from "./App.jsx";
-import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Home, NoPage, Stories } from "./components/composure";
+import { Home, NoPage, StoriesList } from "./components/composure";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +12,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/story/:username",
-    element: <Stories />,
+    element: <StoriesList />,
     errorElement: <NoPage />,
   },
 ]);
