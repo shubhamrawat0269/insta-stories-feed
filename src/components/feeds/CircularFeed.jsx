@@ -1,8 +1,19 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const CircularFeed = ({ data, key }) => {
+  const navigate = useNavigate();
+
+  const redirectToStory = (user) => {
+    navigate(`/story/:${user}`);
+  };
+
   return (
-    <div className="px-1" key={key}>
+    <div
+      className="px-1"
+      key={key}
+      onClick={() => redirectToStory(data.username)}
+    >
       <div className="circular-gradient-brder">
         <div className="max-w-sm rounded-full transition-all cursor-pointer mb-1">
           <div className="flex justify-center mb-12">
