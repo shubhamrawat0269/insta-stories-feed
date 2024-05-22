@@ -8,8 +8,10 @@ const Home = () => {
         <Header />
         <Feeds />
       </div>
-      <div className="hidden sm:block">
-        <p>kindly switch to mobile version</p>
+      <div className="hidden sm:block w-full">
+        <p className="bg-red-500 p-2 text-white font-bold text-center w-1/6 m-auto rounded-md">
+          kindly switch to mobile version
+        </p>
       </div>
     </div>
   );
