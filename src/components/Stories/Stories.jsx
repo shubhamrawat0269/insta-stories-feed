@@ -14,10 +14,13 @@ const StoriesList = () => {
             <div
               className="w-full h-full"
               style={{
-                backgroundImage: `url(${storyItem.backgroundImageUrl})`,
+                background: `url(${storyItem.backgroundImageUrl})`,
+                objectFit: "cover",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "100% 100%",
               }}
             >
-              <div className="font-bold text-2xl text-white mt-5">
+              <div className="font-bold text-4xl text-white relative bottom-10 flex items-end justify-center w-full h-full">
                 <span>{storyItem.caption}</span>
               </div>
             </div>
@@ -31,7 +34,7 @@ const StoriesList = () => {
 
   return (
     <div className="w-full h-full">
-      <Stories loop stories={handleStoriesData()} width={600} />
+      <Stories loop stories={handleStoriesData()} width={374} height={665} />
     </div>
   );
 };

@@ -26,22 +26,22 @@ const storiesData = {
     {
       type: "imageCaptionPost",
       backgroundImageUrl:
-        "https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://cdn.pixabay.com/photo/2023/07/05/18/31/woman-8108997_1280.jpg",
       caption: "take a woww",
       captionColor: "white",
     },
     {
       type: "imageCaptionPost",
       backgroundImageUrl:
-        "https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      caption: "Off to Singapore",
+        "https://cdn.pixabay.com/photo/2022/08/08/19/18/girl-7373459_1280.jpg",
+      caption: "My First Concert",
       captionColor: "white",
     },
     {
       type: "imageCaptionPost",
       backgroundImageUrl:
-        "https://images.pexels.com/photos/2272940/pexels-photo-2272940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      caption: "Stand Straight",
+        "https://cdn.pixabay.com/photo/2018/10/05/15/38/tourist-3726194_960_720.jpg",
+      caption: "Explore in Thailand",
       captionColor: "white",
     },
   ],
@@ -49,14 +49,14 @@ const storiesData = {
     {
       type: "imageCaptionPost",
       backgroundImageUrl:
-        "https://images.pexels.com/photos/3352398/pexels-photo-3352398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      caption: "Post Wedding Shoot Take 101",
+        "https://cdn.pixabay.com/photo/2023/06/27/09/25/woman-8091822_1280.jpg",
+      caption: "Post Wedding",
       captionColor: "white",
     },
     {
       type: "imageCaptionPost",
       backgroundImageUrl:
-        "https://images.pexels.com/photos/5531631/pexels-photo-5531631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://cdn.pixabay.com/photo/2023/08/11/06/05/woman-8182902_960_720.jpg",
       caption: "Memories",
       captionColor: "white",
     },
@@ -72,14 +72,14 @@ const storiesData = {
     {
       type: "imageCaptionPost",
       backgroundImageUrl:
-        "https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://cdn.pixabay.com/photo/2020/06/12/00/11/boxing-5288635_1280.jpg",
       caption: "No Pain No Gain",
       captionColor: "white",
     },
     {
       type: "imageCaptionPost",
       backgroundImageUrl:
-        "https://images.pexels.com/photos/3253501/pexels-photo-3253501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://cdn.pixabay.com/photo/2016/11/29/09/10/man-1868632_1280.jpg",
       caption: "Ropes and Hopes both are high",
       captionColor: "white",
     },
