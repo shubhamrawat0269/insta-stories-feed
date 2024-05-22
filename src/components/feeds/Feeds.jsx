@@ -1,5 +1,6 @@
 import React from "react";
 import CircularFeed from "./CircularFeed";
+import { categoryData } from "../../dummy/categoryData";
 
 const Feeds = () => {
   return (
@@ -11,12 +12,10 @@ const Feeds = () => {
 
       {/* circular labels  */}
       <div className="flex items-center px-[1rem] py-1 overflow-x-auto no-scrollbar">
-        <CircularFeed />
-        <CircularFeed />
-        <CircularFeed />
-        <CircularFeed />
-        <CircularFeed />
-        <CircularFeed />
+        {/* <CircularFeed /> */}
+        {categoryData.map((profile, id) => {
+          return <CircularFeed data={profile} key={id} />;
+        })}
       </div>
     </div>
   );
