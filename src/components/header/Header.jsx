@@ -4,7 +4,7 @@ import { MdNetworkCell, MdNetworkWifi } from "react-icons/md";
 
 const Header = () => {
   return (
-    <div className="border border-red-800 py-1 px-2">
+    <div className="py-1 px-2">
       <div className="flex justify-between items-center">
         {/* time  */}
         <p className="text-sm">5:46 AM</p>
