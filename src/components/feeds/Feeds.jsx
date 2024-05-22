@@ -10,7 +10,7 @@ const Feeds = () => {
       </div>
 
       {/* circular labels  */}
-      <div className="flex items-center px-[1rem] py-1 gap-3 overflow-x-auto no-scrollbar">
+      <div className="flex items-center px-[1rem] py-1 overflow-x-auto no-scrollbar">
         <CircularFeed />
         <CircularFeed />
         <CircularFeed />

@@ -5,3 +5,14 @@
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
+
+.circular-gradient-brder {
+    width: 4.8rem;
+    height: 4.5rem;
+    border: double 3.5px transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00, #3020ff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    display: inline-block;
+}
