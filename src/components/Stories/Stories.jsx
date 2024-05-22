@@ -34,7 +34,12 @@ const StoriesList = () => {
 
   return (
     <div className="w-full h-full">
-      <Stories loop stories={handleStoriesData()} width={374} height={665} />
+      <Stories
+        loop
+        stories={handleStoriesData()}
+        width="100vw"
+        height="100vh"
+      />
     </div>
   );
 };
